@@ -3,7 +3,6 @@ import base64
 import os
 import sys
 
-# Password: secret
 if __name__ == '__main__':
   for arg in sys.argv[1:]:
     if arg.startswith('./'):
